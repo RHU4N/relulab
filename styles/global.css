@@ -1,0 +1,21 @@
+:root{
+    --backgoround: #001935;
+    --primary-color:#30BAD9;
+    --secondary-color:#00537F;
+    --gradiant-primary: linear-gradient(to right, #00455E 0%, #008FC4 100%);
+    --gradiant-secondary: linear-gradient(to right, #44A401 100%, #689F05 100%);
+    --gradiant-background: linear-gradient(to right, #C8D4004D 30%, #0092C04D 30%);
+    --neutral-gray:#434343;
+    --neutral-light-gray:#D9D9D9;
+    --neutral-dark-gray:#3D414A;
+    --neutral-white:#FFFFFF;
+    --neutral-black:#000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
