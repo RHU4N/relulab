@@ -14,12 +14,15 @@
     text-align: center;
 }
 
+/* help text */
 .help-title {
     font-family: var(--font-AjudarH2-family);
     font-size: var(--font-AjudarH2-size);
     font-weight: var(--font-AjudarH2-weight);
     color: var(--primary-color);
 }
+
+/* help cards */
 
 .help-cards {
     display: flex;

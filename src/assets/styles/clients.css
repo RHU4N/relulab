@@ -15,6 +15,8 @@
     gap: 30px;
 }
 
+/* clients text */
+
 .clients-title {
     font-family: var(--font-h2section-family);
     font-size: var(--font-h2section-size);
@@ -34,6 +36,7 @@
     max-width: 750px;
 }
 
+/* clients cards */
 .clients-cards {
     display: flex;
     gap: 35px;
