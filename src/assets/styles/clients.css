@@ -1,0 +1,85 @@
+/* clients section */
+.clients-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 60px;
+}
+
+.clients-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.clients-title {
+    font-family: var(--font-h2section-family);
+    font-size: var(--font-h2section-size);
+    font-weight: var(--font-h2section-weight);
+    background: var(--gradiant-secondary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.clients-desc {
+    font-family: var(--font-paragraph-family);
+    font-size: var(--font-paragraph-size);
+    font-weight: var(--font-paragraph-weight);
+    color: var(--neutral-white);
+    max-width: 750px;
+}
+
+.clients-cards {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    min-height: 350px;
+    background: var(--gradiant-background);
+    border-radius: 5px;
+    padding: 24px 32px;
+    text-align: left;
+    gap: 24px;
+}
+
+.client-stars {
+    font-size: 25px;
+    background: var(--gradiant-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.client-text {
+    font-family: var(--font-paragraph-family);
+    font-size: var(--font-paragraph-size);
+    font-weight: var(--font-paragraph-weight);
+    color: var(--neutral-white);
+}
+
+.client-name {
+    font-family: var(--font-nomesAval-family);
+    font-weight: var(--font-nomesAval-weight);
+    font-size: var(--font-nomesAval-size);
+    color: var(--neutral-white);
+    margin-top: auto;
+}
+
+.client-role {
+    font-family: var(--font-anchor-family);
+    font-weight: var(--font-anchor-weight);
+    font-size: var(--font-anchor-size);
+    color: var(--neutral-light-gray);
+}
