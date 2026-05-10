@@ -10,6 +10,93 @@
     --neutral-dark-gray:#3D414A;
     --neutral-white:#FFFFFF;
     --neutral-black:#000000;
+    
+    /* Font tokens: family, weight, size, (line-height when specified) */
+    --font-anchor-family: 'Roboto', sans-serif;
+    --font-anchor-weight: 400;
+    --font-anchor-size: 16px;
+
+    --font-paragraph-family: 'Roboto', sans-serif;
+    --font-paragraph-weight: 400;
+    --font-paragraph-size: 18px;
+
+    --font-navbar-family: 'Inter', sans-serif;
+    --font-navbar-weight: 600;
+    --font-navbar-size: 17px;
+
+    --font-h1hero-family: 'Roboto', sans-serif;
+    --font-h1hero-weight: 700;
+    --font-h1hero-size: 35px;
+
+    --font-h2section-family: 'Roboto', sans-serif;
+    --font-h2section-weight: 700;
+    --font-h2section-size: 48px;
+    --font-h2section-line-height: 1.2;
+
+    --font-porcentagemMaior-family: 'Roboto', sans-serif;
+    --font-porcentagemMaior-weight: 700;
+    --font-porcentagemMaior-size: 80px;
+    --font-porcentagemMaior-line-height: 1.3;
+
+    --font-anos-family: 'Roboto', sans-serif;
+    --font-anos-weight: 700;
+    --font-anos-size: 60px;
+    --font-anos-line-height: 1.3;
+
+    --font-prods-family: 'Roboto', sans-serif;
+    --font-prods-weight: 700;
+    --font-prods-size: 40px;
+    --font-prods-line-height: 1.3;
+
+    --font-dados-family: 'Roboto', sans-serif;
+    --font-dados-weight: 700;
+    --font-dados-size: 45px;
+    --font-dados-line-height: 1.3;
+
+    --font-h6Dados-family: 'Roboto', sans-serif;
+    --font-h6Dados-weight: 700;
+    --font-h6Dados-size: 20px;
+    --font-h6Dados-line-height: 1.4;
+
+    --font-cardPDA-family: 'Roboto', sans-serif;
+    --font-cardPDA-weight: 900;
+    --font-cardPDA-size: 18px;
+    --font-cardPDA-line-height: 1.5;
+
+    --font-cardPDAs-family: 'Roboto', sans-serif;
+    --font-cardPDAs-weight: 900;
+    --font-cardPDAs-size: 12px;
+    --font-cardPDAs-line-height: 1.5;
+
+    --font-cardsPilar-family: 'Roboto', sans-serif;
+    --font-cardsPilar-weight: 700;
+    --font-cardsPilar-size: 18px;
+    --font-cardsPilar-line-height: 1.5;
+
+    --font-PDASustentabilidade-family: 'Roboto', sans-serif;
+    --font-PDASustentabilidade-weight: 700;
+    --font-PDASustentabilidade-size: 25px;
+    --font-PDASustentabilidade-line-height: 1.5;
+
+    --font-AjudarH2-family: 'Roboto', sans-serif;
+    --font-AjudarH2-weight: 700;
+    --font-AjudarH2-size: 35px;
+    --font-AjudarH2-line-height: 1.5;
+
+    --font-cardAJuda-family: 'Roboto', sans-serif;
+    --font-cardAJuda-weight: 700;
+    --font-cardAJuda-size: 18px;
+    --font-cardAJuda-line-height: 1.5;
+
+    --font-nomesAval-family: 'Roboto', sans-serif;
+    --font-nomesAval-weight: 600;
+    --font-nomesAval-size: 16px;
+    --font-nomesAval-line-height: 1.5;
+
+    --font-footer-family: 'Roboto', sans-serif;
+    --font-footer-weight: 400;
+    --font-footer-size: 14px;
+    --font-footer-line-height: 1.5;
 }
 
 *{
