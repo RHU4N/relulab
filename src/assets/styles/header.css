@@ -10,8 +10,7 @@ body {
 .site-header {
     width: 100%;
     background: var(--backgroud-header);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid var(--backgroud-header);
+    border-bottom: 5px solid var(--backgroud-header);
     
 }
 
