@@ -7,38 +7,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/assets/styles/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/assets/styles/header.css">
     <title>Biolab & CO</title>
 </head>
 
 <body>
-    <header>
-        <img src="src/assets/imgs/biolabLogo.svg" alt="">
-        <nav></nav>
-        <div>
-            <div>
-                <div></div>
-                <div>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="header-brand" href="/" aria-label="Biolab & Co">
+                <img src="src/assets/imgs/biolabLogo.svg" alt="Biolab & Co">
+            </a>
+
+            <nav class="header-nav" aria-label="Menu principal">
+                <div class="navbar"><a href="#institucional">Institucional</a><img src="src/assets/imgs/navbarV.svg" alt=""></div>
+                <div class="navbar"><a href="#produtos">Produtos</a><img src="src/assets/imgs/navbarV.svg" alt=""></div>
+                <div class="navbar"><a href="#pesquisa">Pesquisa</a><img src="src/assets/imgs/navbarV.svg" alt=""></div>
+                <div class="navbar"><a href="#biolab">Ser Biolab &amp; Co</a><img src="src/assets/imgs/navbarV.svg" alt=""></div>
+                <div class="navbar"><a href="#fale">Fale com a Biolab &amp; Co</a><img src="src/assets/imgs/navbarV.svg" alt=""></div>
+                <div class="navbar"><a href="#blog">Blog Viver Bem</a></div>
+            </nav>
+
+            <div class="header-actions">
+                <div class="action-functions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Pesquisar..." aria-label="Pesquisar">
+                        <button type="button" aria-label="Pesquisar">
+                            <img src="src/assets/imgs/seach.svg" alt="">
+                        </button>
+                    </div>
+                    <button class="lang-box" type="button" aria-label="Selecionar idioma">
+                        <img src="src/assets/imgs/langPtBr.svg" alt="Português do Brasil">
+                        <img src="src/assets/imgs/langV.svg" alt="">
+                    </button>
+                </div>
+
+                <div class="action-social" aria-label="Redes sociais">
                     <a href="https://www.instagram.com/biolabfarmaceutica/" target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/imgs/insta.svg" alt="instagram">
+                        <img src="src/assets/imgs/insta.svg" alt="Instagram">
                     </a>
                     <a href="https://www.facebook.com/biolabfarmaceutica/" target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/imgs/Facebook.svg" alt="facebook">
+                        <img src="src/assets/imgs/Facebook.svg" alt="Facebook">
                     </a>
                     <a href="https://www.youtube.com/@biolab_farmaceutica" target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/imgs/youtube.svg" alt="youtube">
+                        <img src="src/assets/imgs/youtube.svg" alt="YouTube">
                     </a>
                     <a href="https://www.linkedin.com/showcase/biolab-farmaceutica/" target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/imgs/Linkedin.svg" alt="linkedin">
+                        <img src="src/assets/imgs/Linkedin.svg" alt="LinkedIn">
                     </a>
                     <a href="https://www.tiktok.com/@biolabfarmaceutica" target="_blank" rel="noopener noreferrer">
-                        <img src="src/assets/imgs/TikTok.svg" alt="tiktok">
+                        <img src="src/assets/imgs/TikTok.svg" alt="TikTok">
                     </a>
                 </div>
-            </div>
-            <div>
-
             </div>
         </div>
     </header>

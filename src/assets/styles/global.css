@@ -1,5 +1,7 @@
 :root{
     --backgoround: #001935;
+    --backgroud-header: #000511BF;
+    --background-nav: #30BAD940;
     --primary-color:#30BAD9;
     --secondary-color:#00537F;
     --gradiant-primary: linear-gradient(to right, #00455E 0%, #008FC4 100%);
@@ -10,7 +12,7 @@
     --neutral-dark-gray:#3D414A;
     --neutral-white:#FFFFFF;
     --neutral-black:#000000;
-    
+
     /* Font tokens: family, weight, size, (line-height when specified) */
     --font-anchor-family: 'Roboto', sans-serif;
     --font-anchor-weight: 400;
@@ -102,7 +104,7 @@
 *{
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
     text-decoration: none;
     box-sizing: border-box;
 }
