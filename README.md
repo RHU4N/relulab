@@ -1,29 +1,19 @@
-# RELULAB - Biolab & CO(landing page)
+# RELULAB
 
-## Visão geral
-Biolab & Co é uma landing page institucional desenvolvida para apresentar a marca, seus pilares de atuação e conteúdos de destaque em uma experiência visual moderna, responsiva e organizada.
+## Projeto
+RELULAB é uma landing page institucional desenvolvida para apresentar a marca Biolab & Co, seus principais conteúdos e áreas de atuação em uma interface moderna, organizada e responsiva.
 
 ## Descrição
-O projeto foi construído com HTML, CSS e JavaScript puro, sem uso de frameworks, priorizando desempenho, simplicidade de manutenção e fidelidade visual em diferentes tamanhos de tela.
+O site foi construído com HTML, CSS e JavaScript puro, sem frameworks, priorizando desempenho, manutenção simples e adaptação visual para diferentes tamanhos de tela.
 
 ## Tecnologias utilizadas
 - HTML5
 - CSS3
 - JavaScript
 
-## Principais seções
-- Header com navegação e ações rápidas
-- Hero de apresentação institucional
-- Bloco de indicadores e estatísticas
-- Notícias em carrossel
-- Sustentabilidade e ESG
-- Área de ajuda com cards
-- Depoimentos de clientes
-- Rodapé institucional com contatos, links e certificações
-
 ## Estrutura de pastas
 ```text
-relulab
+.
 ├── index.html
 ├── README.md
 └── src
@@ -42,9 +32,19 @@ relulab
             └── sustent.css
 ```
 
+## Principais seções
+- Header com navegação e ações rápidas
+- Hero de apresentação institucional
+- Bloco de indicadores e estatísticas
+- Notícias em carrossel
+- Sustentabilidade e ESG
+- Área de ajuda com cards
+- Depoimentos de clientes
+- Rodapé institucional com contatos, links e certificações
+
 ## Como executar
 1. Abra o arquivo `index.html` em um navegador.
-2. Se preferir, utilize uma extensão de servidor local no editor para visualizar o projeto com recarregamento automático.
+2. Se preferir, utilize um servidor local para visualizar o projeto com recarregamento automático.
 
 ## Desenvolvedor
 Rhuan Santana da Silva
