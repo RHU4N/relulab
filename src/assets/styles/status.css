@@ -1,0 +1,97 @@
+/* status section */
+.status-section {
+    display: flex;
+    align-items: center;
+    padding: 64px 110px;
+}
+
+.status-content {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+/* status text */
+.status-text {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+}
+
+.status-subtitle {
+    font-family: var(--font-anchor-family);
+    font-weight: var(--font-anchor-weight);
+    font-size: var(--font-anchor-size);
+    color: var(--neutral-white);
+}
+
+.status-text h2 {
+    font-size: var(--font-h2section-size);
+    font-family: var(--font-h2section-family);
+    font-weight: var(--font-h2section-weight);
+    line-height: var(--font-h2section-line-height);
+    background: var(--gradiant-secondary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.status-description {
+    font-size: var(--font-paragraph-size);
+    font-weight: var(--font-paragraph-weight);
+    font-family: var(--font-paragraph-family);
+    color: var(--neutral-white);
+
+}
+
+/* status stats */
+.status-stats {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid var( --secondary-color);
+    border-radius: 10px;
+    background: var(--backgroud-nav);
+    overflow: hidden;
+}
+
+.status-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    flex: 1 1 50%;
+    padding: 30px 25px;
+}
+
+.status-data:nth-child(1),
+.status-data:nth-child(3) {
+     border-right: 1px solid var( --secondary-color);
+}
+
+.status-data:nth-child(1),
+.status-data:nth-child(2) {
+    border-bottom: 1px solid var( --secondary-color);
+}
+
+.data-value {
+     background: var(--gradiant-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-family: var(---font-porcentagemMaior-family);
+    font-weight: var(--font-porcentagemMaior-weight);
+    font-size: var(--font-porcentagemMaior-size);
+    line-height: var(---font-porcentagemMaior-line-height);
+}
+
+.data-label {
+    font-size: var(--font-h6Dados-size);
+    font-family: var(--font-h6Dados-family);
+    font-weight: var(--font-h6Dados-weight);
+    color: var(--neutral-white);
+}
