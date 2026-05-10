@@ -65,7 +65,7 @@
         </div>
     </header>
     <main>
-        <div class="hero-header">
+        <section class="hero-header">
             <div class="hero-content">
                 <div class="hero-text">
                     <h1>Transformando ciência em inovação para um futuro mais saudável</h1>
@@ -79,8 +79,8 @@
             <div class="hero-img">
                 <img src="src/assets/imgs/heroGif.gif" alt="Biolab & Co em fundo azul com pessoas e a marca da empresa">
             </div>
-        </div>
-        <div class="status-section">
+        </section>
+        <section class="status-section">
             <div class="status-content">
                 <div class="status-text">
                     <p class="status-subtitle">Competência e inovação em cada solução</p>
@@ -106,10 +106,90 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="news-section">
+            <div class="news-inner">
+                <h2 class="news-title">Últimas notícias</h2>
+                <p class="news-desc">Na Biolab estamos comprometidos com a ciência e a tecnologia como ferramentas para contribuir com a saúde e o bem-estar das pessoas.</p>
+                <div class="news-carousel">
+                    <button class="carousel-prev" aria-label="Anterior">‹</button>
+                    <div class="news-track">
 
-    </main>
+                    <article class="news-card">
+                        <div class="news-thumb"><img src="src/assets/imgs/card1.svg" alt="De saber ao cuidar"></div>
+                        <h3 class="news-card-title">De saber ao cuidar</h3>
+                        <p class="news-card-excerpt">Conteúdos sobre autocuidado e soluções inovadoras para a saúde.</p>
+                        <a class="news-cta" href="#">Saiba mais →</a>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-thumb"><img src="src/assets/imgs/card2.svg" alt="Biolab Genéricos"></div>
+                        <h3 class="news-card-title">Biolab Genéricos</h3>
+                        <p class="news-card-excerpt">Conheça a linha genéricos que entrega qualidade e acesso.</p>
+                        <a class="news-cta" href="#">Saiba mais →</a>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-thumb"><img src="src/assets/imgs/card3.svg" alt="Somos apaixonados pela vida"></div>
+                        <h3 class="news-card-title">Somos apaixonados pela vida</h3>
+                        <p class="news-card-excerpt">Produtos e iniciativas pensadas para bem-estar e saúde.</p>
+                        <a class="news-cta" href="#">Saiba mais →</a>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-thumb"><img src="src/assets/imgs/card4.svg" alt="Inovação e confiança"></div>
+                        <h3 class="news-card-title">Inovação e confiança</h3>
+                        <p class="news-card-excerpt">Projetos e pesquisas que geram impacto real na sociedade.</p>
+                        <a class="news-cta" href="#">Saiba mais →</a>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-thumb"><img src="src/assets/imgs/card5.svg" alt="Cuidado e inovação"></div>
+                        <h3 class="news-card-title">Cuidado e inovação</h3>
+                        <p class="news-card-excerpt">Novas iniciativas para promover saúde com mais proximidade.</p>
+                        <a class="news-cta" href="#">Saiba mais →</a>
+                    </article>
+                    </div>
+                    <button class="carousel-next" aria-label="Próximo">›</button>
+                </div>
+            </div>
+        </section>
+        
+        </main>
     <footer></footer>
+    <script>
+        (function(){
+            const track = document.querySelector('.news-track');
+            if(!track) return;
+            const next = document.querySelector('.carousel-next');
+            const prev = document.querySelector('.carousel-prev');
+            const card = track.querySelector('.news-card');
+            const gap = 18;
+            let autoInterval = 5000;
+            let autoplayId = null;
+
+            function scrollByCard(dir = 1){
+                const width = card.getBoundingClientRect().width + gap;
+                track.scrollBy({ left: width * dir, behavior: 'smooth' });
+            }
+
+            next && next.addEventListener('click', ()=> scrollByCard(1));
+            prev && prev.addEventListener('click', ()=> scrollByCard(-1));
+
+            // autoplay
+            function startAutoplay(){
+                stopAutoplay();
+                autoplayId = setInterval(()=>{ next && next.click(); }, autoInterval);
+            }
+            function stopAutoplay(){ if(autoplayId) { clearInterval(autoplayId); autoplayId = null; } }
+
+            track.addEventListener('mouseenter', stopAutoplay);
+            track.addEventListener('mouseleave', startAutoplay);
+
+            // touch: allow swipe by default via scroll; no JS needed
+            startAutoplay();
+        })();
+    </script>
 </body>
 
 </html>
