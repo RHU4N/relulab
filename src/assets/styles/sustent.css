@@ -1,6 +1,8 @@
 /* sustentability section */
 .sustent-section {
     display: flex;
+    flex-direction: column;
+    gap: 30px;
 	padding: 65px 50px;	
     justify-content: center;
     align-items: center;
@@ -77,4 +79,27 @@
     font-weight: var(--font-cardsPilar-weight);
     font-size: var(--font-cardsPilar-size);
     color: var(--secondary-color); 
+}
+
+.sustentbtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 15px 110px;
+	border-radius: 15px;
+	background: var(--gradiant-primary);
+	color: var(--neutral-white);
+	font-family: var(--font-PDASustentabilidade-family);
+	font-weight: var(--font-PDASustentabilidade-weight);
+    font-size: var( --font-PDASustentabilidade-size);
+	text-align: center;
+	cursor: pointer;
+	transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.sustentbtn:hover,
+.sustentbtn:focus-visible {
+	transform: translateY(-1px);
+	filter: brightness(1.05);
+	outline: none;
 }
