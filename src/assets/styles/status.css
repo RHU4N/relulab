@@ -7,6 +7,7 @@
 
 .status-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 80px;
 }
@@ -83,10 +84,10 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    font-family: var(---font-porcentagemMaior-family);
+    font-family: var(--font-porcentagemMaior-family);
     font-weight: var(--font-porcentagemMaior-weight);
     font-size: var(--font-porcentagemMaior-size);
-    line-height: var(---font-porcentagemMaior-line-height);
+    line-height: var(--font-porcentagemMaior-line-height);
 }
 
 .data-label {
