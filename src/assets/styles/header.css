@@ -16,7 +16,6 @@ body {
 
 .header-inner {
     width: 100%;
-    max-width: 1600px;
     max-height: 95px;
     display: flex;
     justify-content: space-between;
