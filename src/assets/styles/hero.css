@@ -84,3 +84,30 @@
 .hero-img img {
     display: block;
 }
+
+@media (max-width: 768px) {
+    .hero-header {
+        flex-direction: column;
+        gap: 18px;
+        padding: 20px 20px;
+        align-items: center;
+    }
+    .hero-content {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 8px;
+        text-align: center;
+    }
+    .hero-text {
+        text-align: center;
+    }
+    .hero-img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .hero-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
