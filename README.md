@@ -48,3 +48,6 @@ O site foi construído com HTML, CSS e JavaScript puro, sem frameworks, prioriza
 
 ## Desenvolvedor
 Rhuan Santana da Silva
+
+## Figma
+[Link do figma](https://www.figma.com/design/d69gg7GPq6Ccc6lM2J1Y5n/Biolab-LandPage?node-id=0-1&t=OVxtvbp0cBmVIpSo-1)

@@ -112,3 +112,8 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+body {
+    background: var(--backgoround);
+    font-family: var(--font-anchor-family);
+}

@@ -1,10 +1,4 @@
 @import url(global.css);
-
-body {
-    background: var(--backgoround);
-    font-family: var(--font-anchor-family);
-}
-
 /* Header */
 
 .site-header {
