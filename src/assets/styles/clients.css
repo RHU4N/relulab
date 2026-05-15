@@ -86,3 +86,23 @@
     font-size: var(--font-anchor-size);
     color: var(--neutral-light-gray);
 }
+
+@media (max-width: 768px) {
+    .clients-section {
+        padding: 40px 16px;
+    }
+    .clients-cards {
+        flex-direction: column;
+        gap: 18px;
+        align-items: center;
+    }
+    .client-card {
+        width: 100%;
+        max-width: none;
+        min-height: auto;
+        padding: 18px;
+    }
+    .client-text {
+        font-size: 14px;
+    }
+}
